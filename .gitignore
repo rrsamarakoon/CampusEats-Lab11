@@ -1,0 +1,31 @@
+﻿# Frontend dependencies and build output
+/campuseats-dashboard/node_modules/
+/campuseats-dashboard/dist/
+
+# Frontend environment files
+/campuseats-dashboard/.env
+/campuseats-dashboard/.env.*
+!/campuseats-dashboard/.env.example
+
+# Backend build output (anywhere under the backend project)
+/backend/CampusEats.Api/**/bin/
+/backend/CampusEats.Api/**/obj/
+
+# Backend environment files; keep example templates trackable
+/backend/CampusEats.Api/**/.env
+/backend/CampusEats.Api/**/.env.*
+!/backend/CampusEats.Api/**/.env.example
+
+# IDE and editor files
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
